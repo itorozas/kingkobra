@@ -1,0 +1,329 @@
+.formulario--contacto {
+  background-color: white;
+  height: 350px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulario--contacto .formulario__titulo {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.formulario--contacto .formulario__campo {
+  font-size: 1.5rem;
+  width: 300px;
+  margin: 10px;
+}
+.formulario--contacto .formulario__campo:focus {
+  border: 1px solid black;
+  outline: none;
+  box-shadow: 0px 0px 15px rgba(1, 16, 24, 0.5);
+}
+.formulario--contacto .formulario__boton {
+  font-size: 1.5rem;
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+.formulario--contacto .formulario__boton:hover {
+  background-color: white;
+  color: black;
+}
+
+.componentes {
+  width: 100%;
+  margin-top: px;
+  display: flex;
+  justify-content: center;
+}
+.componentes .componentes__item {
+  padding: 20px;
+  margin: 50px;
+}
+.componentes .componentes__item h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #f8b500;
+}
+.componentes .componentes__item p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f8b500;
+}
+.componentes .componentes__item img {
+  margin: auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
+*{
+	font-size: 62.5%;
+	font-family: 'karla', sans-serif;
+	margin:0
+	box-sizing: border-box;
+}
+
+
+.contenedor{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+header{ 
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+
+}
+
+
+.navbar .nav-item a{
+	font-size: 1.5rem;
+}
+
+
+.logo_2{
+	transform: translate(130px,270px);
+	position: absolute;
+	z-index: 1;
+	animation-name: fadeIn;
+	animation-duration: 3s;
+}
+
+.nosotros__titulo--principal{
+	font-family: 'roboto', sans-serif;
+	font-weight:400;
+	font-size: 2.5rem;
+	color: #f8b500;
+}
+
+.parrafo_1{
+	font-size: 1.5rem;
+	line-height: 20px;
+}
+
+.parrafo_1 strong{
+	font-size: 1.5rem;
+
+}
+
+article{
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	padding: 30px;
+}
+
+article p{
+	font-size: 1.5rem;
+}
+
+article p strong{
+	font-size: 1.5rem;
+}
+
+section table caption{
+	font-size: 2.5rem;
+	color: #32e0c4;
+}
+
+section table th{
+	font-size: 1.5rem;
+}
+section table td{
+	font-size: 1.5rem;
+}
+
+section table td ol li{
+	font-size: 1.5rem;
+}
+
+.servicios {
+	display: flex;
+	flex-flow: row wrap;
+	margin:0;
+	margin-top: 200px;
+}
+
+.servicios img{
+	width: 200px;
+	height:200px;
+	justify-content: center;	
+
+
+}
+
+
+.productos{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 15px;
+	margin:100px;
+}
+
+
+.productos img{
+	width: 100%;
+}
+
+.productos .cocina{
+	grid-row-start: 1;
+	grid-column-start: 3;
+	
+}
+
+.productos .comedor{
+	grid-row-start: 2;
+	grid-column-start: 4;
+	
+}
+
+.productos .objetos{
+	grid-column-start: 5;
+	grid-row-start: 1;
+}
+
+.productos .bandejas{
+	grid-column-start: 2;
+	grid-row-start: 1;
+}
+
+.productos .cuencos{
+	grid-column-start: 4;
+	grid-row-start: 1;
+}
+
+.productos .plantas{
+	grid-column-start: 2;
+}
+
+.productos .velas{
+	grid-row-start: 2;
+	grid-column-start: 5;
+	
+}
+
+
+@keyframes fadeIn {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+
+div.newsletter{
+	background-color: #f8b500;
+	height: 200px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.newsletter form fieldset label{
+	font-size: 3rem;
+	font-family: karla;
+	color: white;	
+	text-transform: uppercase;
+}
+
+.newsletter form fieldset .mail{
+	font-size: 2rem;	
+}
+
+.newsletter form fieldset .boton{
+	font-size: 2rem;
+	background-color: black;
+	color: white;
+}
+
+.newsletter form fieldset .boton:hover{
+	background-color: white;
+	color: #f8b500;
+}
+
+
+footer{
+	background-color: black;
+	height: 250px;
+	color: white;
+
+}
+
+footer ul{
+	padding-top: 50px;
+
+}
+
+footer ul li{
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+
+.contacto{
+	display: flex;
+	justify-content: center;
+	background-color: #f8b500;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.mapa{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/* estilos footer */
+
+footer{
+	height: 200px;
+}
+
+footer ul li{
+	list-style: none;
+	font-size: 1.2rem;
+
+}
+
+.fas .fa-phone{
+	color: white;
+}
+
+.pie_final{
+	font-size: 1.5rem;
+	text-align:center;
+}
+
+.btn{
+	font-size: 2rem;
+	background-color: black;
+	border: none;
+}
+
+.btn:hover{
+	background-color: white;
+	color: #f8b500;
+}
+
+.modal-title{
+	font-size: 2rem;
+}
+
+.modal-body{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.close{
+	font-size: 3rem;
+}
