@@ -4,49 +4,23 @@ $button-color:black;
 $color-primary:#f8b500;
 $font-size_p:1.5rem;
 
-@media only screen and (max-width: 768px){
-.formulario--contacto{
-    background-color:white;
-    height: 350px;
-    width: 400px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-        .formulario__titulo{
-            font-size: 2.5rem;
-            text-align: center;
-        }
-        .formulario__campo{
-            font-size: $font-size_p;
-            width: 300px;
-            margin: 10px;
-        }
-
-        .formulario__campo:focus{
-            border: 1px solid black; 
-            outline: none; 
-            box-shadow: 0px 0px 15px rgba(1, 16, 24, 0.5);
-        }
-
-        .formulario__boton{
-            font-size: $font-size_p;
-            margin: 10px;
-            background-color: $button-color;
-            color: white;
-        }
-        .formulario__boton:hover{
-            background-color: white;
-            color: black;
-        }
-}  
-} 
 
 @media only screen and (max-width: 768px){
     .formulario--contacto{
-        margin-top: 20px;
+        margin: 20px;
+        width: 450px;
+    }
+    .mapa{
+        width: 450px;
+    }
+   .btn-primary{
         width: 500px;
     }
+    .logo_2{
+       width: 400px;
+       transform: translate(80px,120px);
+    }
+
 }
 
 
@@ -76,3 +50,29 @@ $font-size_p:1.5rem;
         }
     }
 }
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding:50px;
+
+    .card{
+        border: none;
+        font-size: 3rem;
+        margin: 20px;
+
+        img.card-img-top:hover{
+            filter: blur(3px);
+        }
+
+        h5{
+            font-size:2rem ;
+            text-align: center;
+        }
+           
+       }
+    }
+
+
