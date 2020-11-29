@@ -54,6 +54,10 @@
   .btn-primary {
     width: 400px;
   }
+
+  .artdestacados__cards .card {
+    margin-top: 50px;
+  }
 }
 .componentes {
   width: 100%;
@@ -123,6 +127,71 @@
 .galeria .card h5 {
   font-size: 2rem;
   text-align: center;
+}
+
+.artdestacados {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.artdestacados__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+.artdestacados__cards .card {
+  border: none;
+  box-shadow: 5px 5px 20px 1px rgba(199, 199, 199, 0.61);
+}
+.artdestacados__cards .card-title {
+  font-size: 2rem;
+}
+.artdestacados__cards .card-text {
+  font-size: 1.2rem;
+}
+.artdestacados__cards .artdestacados__boton {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #f8b500;
+}
+.artdestacados__cards .artdestacados__boton:hover {
+  color: black;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f8b500;
+}
+.nosotros .nosotros__texto {
+  padding: 100px;
+}
+.nosotros .nosotros__texto h2 {
+  color: white;
+  font-size: 2rem;
+}
+.nosotros .nosotros__texto p {
+  font-size: 1.5rem;
+}
+.nosotros .nosotros__texto p strong {
+  font-size: 1.5rem;
+}
+
+.brands {
+  margin-top: 80px;
+}
+.brands h3 {
+  text-align: center;
+}
+.brands .brands__img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=estilos_2.css.map */
