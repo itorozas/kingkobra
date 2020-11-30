@@ -207,7 +207,7 @@ $font-size_p:1.5rem;
     }
 
 .brands{
-    margin-top: 80px;
+    margin: 80px;
 
     h3{
         text-align: center;
@@ -217,5 +217,75 @@ $font-size_p:1.5rem;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+}
+
+.newsletter{
+    .mail{
+       border: none;
+
+    }
+    .btn-primary{
+        background-color: $color-primary;
+        border: solid 2px white;
+        
+    }
+    .btn-primary:hover{
+        background-color: white;
+        color: $color-primary;
+    }
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+.footer__contacto{
+    a{
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.formulario--contacto{
+    .formulario__campo{
+        border: none;
+        border-bottom: solid 2px $color-primary;
+     
+    }
+    .formulario__boton{
+        background-color: white;
+        color: $color-primary;
+        border: solid 2px $color-primary;
+    }
+    .formulario__boton:hover{
+        border: solid 2px black;
+    }
+}
+
+.proyectos{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    .nosotros__imagen{
+        margin-top: 50px;
+    }
+    .nosotros__texto{
+        h2{
+            color: black;
+        }
     }
 }
