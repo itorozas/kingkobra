@@ -14,8 +14,6 @@ function buildProductCard (product){
     return htmlCard;
 }
 
-// funcion para generar el evento en cada boton y que me devuelva el array del producto seleccionado
-
 function onSelectClick(event){
     const idProduct = event.target.dataset.id;
 
@@ -40,8 +38,10 @@ let selectedProducts = [];
 
 window.addEventListener('load', function(){
 
-    const productContainer = document.getElementById('productContainer');
-    const selectedContainer = document.getElementById('selectedContainer');
+    // Cuando guardo esto en jquery, no se ejecuta correctamente el codigo en html, no se que mas 
+    //tengo que cambiar del js para que funcione.
+    const productContainer = $("productContainer");
+    const selectedContainer = $("selectedContainer");
 
     product.forEach(function(product){
         if(product.enabled){
