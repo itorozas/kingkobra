@@ -252,4 +252,13 @@
   color: black;
 }
 
+#productContainer {
+  display: flex;
+}
+#productContainer .card {
+  width: 50%;
+  height: 50%;
+  padding-right: 20px;
+}
+
 /*# sourceMappingURL=estilos_2.css.map */

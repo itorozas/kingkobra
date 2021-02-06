@@ -38,9 +38,7 @@ let selectedProducts = [];
 
 window.addEventListener('load', function(){
 
-    // Cuando guardo esto en jquery, no se ejecuta correctamente el codigo en html, no se que mas 
-    //tengo que cambiar del js para que funcione.
-    const productContainer = $("productContainer");
+    const productContainer = document.getElementById('productContainer');
     const selectedContainer = $("selectedContainer");
 
     product.forEach(function(product){
@@ -57,4 +55,8 @@ window.addEventListener('load', function(){
     })
 
 });
+
+$(document).ready(function(){
+    $("#productContainer").fadeIn(2000);
+})
 

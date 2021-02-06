@@ -289,3 +289,15 @@ $font-size_p:1.5rem;
         }
     }
 }
+
+#productContainer{
+    display: flex;
+  
+  .card{
+      width: 50%;
+      height: 50%;
+      padding-right: 20px;
+     
+  }
+ 
+}
